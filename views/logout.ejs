@@ -1,0 +1,42 @@
+<%- include('header') %>
+<div class="header-bar"><i class="iconfont icon-fanhui" onclick="window.history.back(-1)" style="left:1rem;"></i>设置</div>
+<ul class="tab-list">
+    <li data-name="0"><i class="iconfont icon-bokeyuan"></i>我的博客<i class="iconfont icon-youjiantou"></i></li>
+    <li data-name="1"><i class="iconfont icon-bokeyuan"></i>我的草稿<i class="iconfont icon-youjiantou"></i></li>
+    <li data-name="logout"><i class="iconfont icon-bokeyuan"></i>退出登陆<i class="iconfont icon-youjiantou"></i></li>
+  </ul>
+<!--脚步固定栏-->
+<ul class="footer-list">
+  <li class="active" data-type="0"><i class="iconfont icon-zhuye"></i><br/><span>主页</span></li>
+  <li data-type="1"><i class="iconfont icon-bokeyuan"></i><br/><span>博客</span></li>
+  <li data-type="2"><i class="iconfont icon-bokeyuan"></i><br/><span>发布</span></li>
+</ul>
+<!-- jQuery 2.1.4 -->
+<script src="/libs/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="/libs/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<!-- 弹框layer.js 自动加载css -->
+<script src="/libs/layer/layer.js"></script>
+<!--公用common.js-->
+<script src="/js/common.mobi.js"></script>
+<script>
+$(function(){
+  page.init();
+});
+var page = (function(){
+  var componentInit = function(){
+    // $.msg("提示框内容",5);
+    $(".tab-list").on("click","li",function(){
+       var type = $(this).data("name");
+        type=='logout'?window.location.href="/logout/exit":'';
+    })
+  }
+  return{
+    init:function(){
+      componentInit();
+    }
+  }
+})()
+</script>
+</body>
+</html>

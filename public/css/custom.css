@@ -1,0 +1,270 @@
+/*登录页面样式*/
+.login-content{
+  /*背景渐变*/
+  background:#d4a112;
+  background: -webkit-gradient(linear, left top,left bottom, color-stop(0, rgb(231, 194, 194)),
+  color-stop(1, #d4a112));
+  background: -ms-linear-gradient(right, #F5DA91, #d4a112);
+  background: -o-linear-gradient( #F5DA91, #d4a112);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5DA91', endColorstr
+  ='#d4a112', GradientType=0);
+  box-shadow: none;
+  text-align:center;
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  padding:0 10%;
+}
+.logo-content{
+  text-align:center;  
+  padding:7rem 0;
+}
+.login-title{
+  color:#fff;
+  font-size:3rem;
+}
+.input-content{
+  line-height:7rem;
+  text-align: center;
+}
+.input-radius{
+  width:100%;
+  height:4rem;
+  padding:0.3rem;
+  font-size:1.5rem;
+  margin:0 auto;
+  border-radius:10px;
+  border:1px solid #fff;
+}
+.btn-login{
+  width:100%;
+  height:5rem;
+  margin-top:5rem;
+  text-align:center;
+  font-size:2rem;
+  color:#fff;
+  border-radius:10px;
+  outline:none;
+  background-color:#DF7614;
+  border:none;
+}
+/*注册页样式*/
+.register-title{
+  position:relative;
+  text-align:center;
+  font-size:2rem;
+  padding:1rem;
+  background-color:#DF7614;
+  color:#fff;
+}
+.register-title>i{
+  left:1rem;
+  font-size:2rem;
+  position:absolute;
+}
+.register-contain{
+  background-color:#d4a112;
+  padding:1rem;
+}
+.register-contain .form-item{
+  padding:1rem 0;
+  position: relative;
+}
+.input-control{
+  width:100%;
+  height:4rem;
+  font-size:1.5rem;
+  border:none;
+  padding:0 3rem 0 0.5rem;
+  box-sizing:border-box;
+}
+.sel-control{
+  width:100%;
+  height:4rem;
+  font-size:1.5rem;
+}
+.form-item .iconfont{
+  font-size:2rem;
+  position: absolute;
+  top:2rem;
+  right:1rem;
+}
+.form-photo{
+  width:10rem;
+  height:10rem;
+  border-radius: 50%;
+  margin:0 auto;
+  background-color:#fff;
+  background-image:url('../img/logo.png');
+  background-size:100% auto;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.btn-orange{
+  height:4rem;
+  background:#fff;
+  color:#DF7614;
+  font-size:1.5rem;
+  border:none;
+  padding:0 0.5rem;
+  border-radius:0.5rem;
+}
+.btn-control{
+  width:100%;
+}
+/*头部通用样式*/
+.header-bar{
+  background-color:#d4a112;
+  color:#fff;
+  text-align:center;
+  padding:1.5rem 1rem;
+  font-size:2rem;
+  position:relative;
+}
+.header-bar>i{
+  font-size:2rem;
+  position:absolute;
+}
+.main-contain{
+  background:#d4a112;
+  background: -webkit-gradient(linear, left top,left bottom, color-stop(0, rgb(228, 199, 130)),
+  color-stop(1, #e7dcc2));
+  background: -ms-linear-gradient(right,#d4a112,#F5DA91);
+  background: -o-linear-gradient( #d4a112, #F5DA91);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5DA91', endColorstr
+  ='#d4a112', GradientType=0);
+  padding-bottom:1rem;
+  padding-top:3rem;
+}
+.main-logo{
+  width:10rem;
+  height:10rem;
+  border-radius:50%;
+  margin:0 auto;
+  background-color:#fff;
+  background-position:center center;
+  background-size:cover;
+}
+.main-nav{
+ overflow: hidden;
+}
+.main-nav>div{
+  width:50%;
+  float:left;
+  font-size:2rem;
+  color:#fff;
+}
+.main-nav>div>i{
+  font-size:4rem;
+  margin-bottom:2rem;
+}
+.main-nav>div>span{
+  margin-top:1rem;
+}
+
+
+/*脚部样式*/
+.footer-list{
+  background-color:#ccc;
+  padding:0.5rem;
+  color:#333;
+  overflow:hidden;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.footer-list>li{
+  float:left;
+  width:33.3%;
+  font-size:1.5rem;
+  text-align: center;
+}
+.footer-list>li>i{
+  font-size:3rem;
+  padding-bottom:1rem;
+}
+.footer-list>li.active{
+  color:#d4a112;
+}
+.tab-list{
+  background-color:#fff;
+  margin-top:1rem;
+}
+.tab-list>li{
+  position:relative;
+  font-size:2rem;
+  padding:1.5rem 1rem 1.5rem 4rem;
+  border-bottom:1px solid #ddd;
+
+}
+.tab-list>li>i{
+  position: absolute;
+  font-size: 2rem;
+}
+.tab-list>li>i.icon-youjiantou{
+  right:1rem;
+}
+.tab-list>li>i:first-child{
+  left:1rem;
+}
+/*发表文件*/
+.write-form{
+  padding:1rem;
+}
+.form-group>label{
+font-size:2rem;
+font-weight: bolder;
+line-height:3rem;
+}
+.form-group>input,.form-group>textarea{
+  padding:0.5rem;
+  width:100%;
+  font-size:2rem;
+}
+.form-group>textarea{
+  height:25rem;
+}
+.btn-group{
+  padding:2rem;
+}
+.btn-group input{
+  padding:1rem 3rem;
+  font-size:2rem;
+  background-color:#DF7614;
+  color:#fff;
+  border:none;
+  outline: none;
+  border-radius:10px;
+}
+.btn-group .btn:last-child{
+  float:right;
+}
+/*查看博客*/
+.message-contain{
+  border:5px solid #DF7614;
+  margin:1rem;
+  padding:1rem;
+  border-radius:10px;
+  background-color:#fff;
+}
+.message-title{
+  color:#DF7614;
+  font-size:3rem;
+  line-height:4rem;
+}
+.message-content{
+  font-size:2rem;
+  line-height:3rem;
+}
+.message-logo{
+  padding:1rem;
+}
+.message-logo>img{
+  vertical-align: middle;
+  width:5rem;
+  height:5rem;
+  border-radius:50%;
+}
+.message-logo>span{
+  font-size:3rem;
+}

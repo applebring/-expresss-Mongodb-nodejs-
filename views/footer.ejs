@@ -1,0 +1,25 @@
+<!-- jQuery 2.1.4 -->
+<script src="/libs/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="/libs/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<!-- 弹框layer.js 自动加载css -->
+<script src="/libs/layer/layer.js"></script>
+<!--公用common.js-->
+<script src="/js/common.mobi.js"></script>
+<script>
+  $(function(){
+    page.init();
+  });
+  var page = (function(){
+    var componentInit = function(){
+      // $.msg("提示框内容",5);
+    }
+    return{
+      init:function(){
+        componentInit();
+      }
+    }
+  })()
+</script>
+</body>
+</html>

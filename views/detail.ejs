@@ -1,0 +1,9 @@
+<%- include('header') %>
+<div class="header-bar"><i class="iconfont icon-fanhui" onclick="window.history.back(-1)" style="left:1rem;"></i>我的博客<i class="iconfont icon-shezhi logout" style="right:1rem;top:1rem;font-size:3rem;" onclick="window.location.href='/logout'"></i></div>
+<%- include('post-content') %>
+<ul class="footer-list">
+  <li data-type="0"><i class="iconfont icon-zhuye"></i><br/><span>主页</span></li>
+  <li data-type="1"><i class="iconfont icon-bokeyuan"></i><br/><span>博客</span></li>
+  <li class="active" data-type="2"><i class="iconfont icon-bokeyuan"></i><br/><span>发布</span></li>
+</ul>
+<%- include('navbar') %>

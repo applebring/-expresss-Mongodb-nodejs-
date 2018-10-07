@@ -1,0 +1,13 @@
+<div class="message-logo">
+  <img src="/imgupload/<%= post.author.avatar %>"><span><%= post.author.name %></span>
+</div>
+<div class="message-contain">
+    <div class="message-title"><a href="/myblog/<%= post._id %>"><%= post.title %></a></div>
+    <div class="message-content"><%- post.content %></div>
+    <div style="font-size:1.5rem;">
+      <span><%= post.created_at %></span>
+      <span>浏览(<%= post.pv %>)</span>
+      <a href="/myblog/<%= post._id %>/edit" style="color:#666">编辑</a>
+      <a href="/myblog/<%= post._id %>/remove">删除</a>
+    </div>
+</div>
